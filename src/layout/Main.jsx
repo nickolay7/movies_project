@@ -19,7 +19,7 @@ export default class Main extends React.Component {
       .then((data) => this.setState({movies: data.Search, loading: false}));
   }
 
-  searchMovies = (str, type = '') => {
+  searchMovies = (str = 'fate', type = '') => {
     this.setState({loading: true});
     const href = `https://www.omdbapi.com/?apikey=${API_KEY}&s=${str}&type=${type}`;
     fetch(href)
