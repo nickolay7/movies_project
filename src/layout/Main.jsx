@@ -2,7 +2,6 @@ import React from 'react';
 import FilmsSearch from "../components/FilmsSearch";
 import MoviesList from "../components/MoviesList";
 import Preloader from "../components/Preloader";
-// import Filter from "../components/Filter";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
