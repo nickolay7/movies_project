@@ -6,7 +6,7 @@ import Preloader from "../components/Preloader";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 export default function Main() {
-  const [movies, setMovies] = useState();
+  const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState();
 
   const searchMovies = (str = 'fate', type = '') => {
