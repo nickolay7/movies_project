@@ -9,3 +9,5 @@ npm i
 ### start
 
 npm start
+
+[Site presentation](https://nickolay7.github.io/movies_project)
